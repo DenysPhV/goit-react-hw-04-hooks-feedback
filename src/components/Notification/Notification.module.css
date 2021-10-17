@@ -1,0 +1,15 @@
+.desc {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 35px;
+  font-weight: 700;
+
+  color: #a52a2a;
+}
+
+.container {
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  margin-top: 80px;
+}

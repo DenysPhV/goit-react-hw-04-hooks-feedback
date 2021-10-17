@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+
+  font-size: 20px;
+  border: 1px solid #808080;
+  border-radius: 20px;
+
+  cursor: pointer;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+
+  transition: box-shadow 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(71, 88, 180);
+  color: #ffffff;
+}

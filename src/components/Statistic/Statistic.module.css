@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.item:nth-last-child(-n + 2) {
+  font-weight: 800;
+}
+
+.item {
+  margin: 20px;
+}
